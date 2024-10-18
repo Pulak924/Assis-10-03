@@ -6,17 +6,120 @@
     <title>Document</title>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-     <header>
-        <nav>
-            <div>
-                <span class="">Rinterio</span>
+     <header class="max-w-7xl mx-auto">
+        <nav class=" items-center justify-between p-4 bg-white flex">
+            <div class="flex items-center">
+                <div class="rounded-full bg-lime-400 p-2">
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                </div>
+                <div>
+                    <span class="text-2xl font-bold mx-3"> G3 </span>
+                </div>
             </div>
-
+            <div class="space-x-6 hidden md:flex">
+                <a href="" class="text-gray-700 hover:text-black">Home</a>
+                <a href="" class="text-gray-500 hover:text-black">Servies</a>
+                <a href="" class="text-gray-500 hover:text-black">Portfolio</a>
+                <a href="" class="text-gray-500 hover:text-black">Blogs</a>
+                <a href="" class="text-gray-500 hover:text-black">contract Us</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+               <button class="bg-gray-200 rounded-full p-2">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+               </button> 
+               <button class="bg-gray-200 rounded-full p-2">
+                <span><i class="fa-solid fa-cart-plus"></i></span>
+               </button>
+               <a href="" class="bg-lime-400 p-2 rounded-full flex items-center py-2 px-4 ">
+                <span>Book Consult</span>
+                <i class="fa-solid fa-square-arrow-up-right ml-2"></i>
+               </a>
+            </div>
+            
+            <div class="md:hidden ">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
      </header>
-     <main></main>
+     <main>
+        <section class="flex flex-col items-center text-center max-w-7xl mx-auto mb-12">
+            <img src="assets/banner.png" alt="">
+            <h1 class="text-4xl font-extrabold mb-4"> A House Design for better living and Luxary Live Lifting.Some Taking Attation People to Showing There Ability </h1>
+
+            <p class="text-gray-700 mb-8 max-w-lg">A house is more than just a physical structure; it's a place where people find comfort, security, and a sense of
+            belonging. Typically, a house serves as a residential building, providing shelter and privacy for individuals or
+            families.</p>
+            <a href="" class="bg-lime-400 p-3 text-black px-6 rounded-full flex items-center py-2 px-4 mb-12 ">
+                <span class="mb-2">veiw Deatils</span>
+                <i class="fa-solid fa-square-arrow-up-right ml-2 "></i>
+            </a>
+
+        </section>
+        <!-- About us sections -->
+       <section class="bg-[#F4F4F4] p-12">
+        <div
+            class="flex flex-col md:flex-row justify-between max-w-7xl m-auto px-4 py-26 space-y-8 md:space-y-0 md:space-x-0 gap-8 mt-16 mb-10">
+            <div>
+                <a href="" class="rounded-full px-4 inline-flex items-center py-2 text-gray-700 bg-gray-200">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    <span class="ml-2">About Us</span>
+                </a>
+                <h1 class="text-4xl font-bold">Elevate the curb appeal of your home with our list of Best Parapet Wall Design
+                    Ideas.</h1>
+                <p class="text-gray-500">Some popular parapet wall designs for Indian homes include modern minimalist designs,
+                    intricate jali work, traditional
+                    jaali patterns,</p>
+        
+                <div class="space-y-6">
+                    <div class="flex rounded-lg items-center bg-white space-x-4 shadow-lg p-4">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <div>
+                            <h2 class="font-bold text-xl">Commercial</h2>
+                            <p>Bricks are often used as parapet designs for plain walls, and are constructed on roofs, terraces,
+                                and balconies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex rounded-lg items-center bg-white space-x-4 shadow-lg p-4">
+                        <i class="fa-solid fa-house"></i>
+                        <div>
+                            <h2 class="font-bold text-xl">Commercial</h2>
+                            <p>Bricks are often used as parapet designs for plain walls, and are constructed on roofs, terraces,
+                                and
+                                balconies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg-w-1/2">
+                <img class="shadow-lg rounded-lg w-full" src="assets/Rectangle.png" alt="">
+            </div>
+        </div>
+       </section>
+       <!-- portfolio section starts here -->
+        <section class="space-y-8 max-w-7xl px-16 mx-a">
+            <div class="text-center mb-8">
+                <button class="text-green-800 bg-green-100 rounded-full py-2 px-4 inline-flex items-center">
+                    <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                    <span>Explore Our letest works</span>
+                </button>
+                <h2 class="font-bold text-3xl mt-4">Our Letest Portpolio </h2>
+                <p class="text-gray-600 mt-2">This collection of barn house and barndominium plans provide a wide range of styles, square footage, and aesthetically <br>
+                pleasing exteriors and interiors.
+
+                </p>
+            </div>
+
+        </section>
+
+     </main>
      <footer></footer>
 </body>
 
